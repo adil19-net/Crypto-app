@@ -1,6 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  HashRouter as Router,
+} from "react-router-dom";
+
 
 import Home from "./Routes/Home";
 import CoinPage from "./Routes/CoinPage";
